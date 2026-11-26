@@ -1,0 +1,289 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="nt-dark-title nt-dark-desc">
+  <title id="nt-dark-title">NovaTeX — Local-First Multi-Format LaTeX Studio for Lab Reports, Technical Docs &amp; Academic Papers</title>
+  <desc id="nt-dark-desc">Edit in LaTeX, Markdown, or Word — compile to live PDF without breaking templates. 7 ready-to-compile lab and paper templates, zero-cost CSV-to-Booktabs Lab Toolkit, scoped BYOK AI repair, and sandboxed TeX compilation.</desc>
+  <defs>
+    <linearGradient id="nd-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0C0F16"/>
+      <stop offset="52%" stop-color="#0E121C"/>
+      <stop offset="100%" stop-color="#111622"/>
+    </linearGradient>
+    <radialGradient id="nd-glow-emerald" cx="0.14" cy="0.22" r="0.40">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.16"/>
+      <stop offset="55%" stop-color="#10B981" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0C0F16" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nd-glow-indigo" cx="0.86" cy="0.22" r="0.40">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.12"/>
+      <stop offset="58%" stop-color="#818CF8" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#111622" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nd-top-shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#10B981" stop-opacity="0.65"/>
+      <stop offset="78%" stop-color="#818CF8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nd-brand-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14965F"/>
+      <stop offset="55%" stop-color="#0F7B4C"/>
+      <stop offset="100%" stop-color="#0A5936"/>
+    </linearGradient>
+    <linearGradient id="nd-wordmark-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="nd-pill-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#171D2A"/>
+      <stop offset="100%" stop-color="#121722"/>
+    </linearGradient>
+    <linearGradient id="nd-studio-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121723"/>
+      <stop offset="100%" stop-color="#0D111A"/>
+    </linearGradient>
+    <pattern id="nd-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.025" stroke-width="1"/>
+    </pattern>
+    <clipPath id="nd-canvas-clip">
+      <rect x="4" y="4" width="1192" height="332" rx="18"/>
+    </clipPath>
+    <clipPath id="nd-studio-clip">
+      <rect x="0" y="0" width="472" height="192" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Linear Obsidian Canvas -->
+  <g clip-path="url(#nd-canvas-clip)">
+    <rect x="4" y="4" width="1192" height="332" fill="url(#nd-bg)"/>
+    <rect x="4" y="4" width="1192" height="332" fill="url(#nd-grid)"/>
+    <rect x="4" y="4" width="1192" height="332" fill="url(#nd-glow-emerald)"/>
+    <rect x="4" y="4" width="1192" height="332" fill="url(#nd-glow-indigo)"/>
+    <!-- Ultra-subtle top edge shimmer -->
+    <rect x="4" y="4" width="1192" height="2" fill="url(#nd-top-shimmer)"/>
+    <!-- Subtle Horizontal Divider above Capability Pills -->
+    <line x1="48" y1="246" x2="1152" y2="246" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+  </g>
+
+  <!-- Crisp Outer Card Border -->
+  <rect x="4" y="4" width="1192" height="332" rx="18" fill="none" stroke="#232A38" stroke-width="1.5"/>
+  <rect x="5.5" y="5.5" width="1189" height="329" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+
+  <!-- Left Column: Brand Mark, Wordmark, Version Tag & Subtitle (x=48..660) -->
+  <g>
+    <!-- Soft emerald icon halo -->
+    <rect x="46" y="56" width="76" height="76" rx="21" fill="#10B981" fill-opacity="0.14"/>
+    <!-- NovaTeX Geometric Leaf / Nib Squircle (matching BrandMark.tsx) -->
+    <g transform="translate(48, 58)">
+      <rect x="0" y="0" width="72" height="72" rx="19" fill="url(#nd-brand-bg)"/>
+      <rect x="0.75" y="0.75" width="70.5" height="70.5" rx="18.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1.5"/>
+      <g transform="translate(13.2, 13.2) scale(1.9)" fill="none">
+        <path d="M19.5 4.5C13.4 4.8 8.3 7.8 5.8 13.4C5.1 15 4.7 17 4.5 19.5C7 19.3 9 18.9 10.6 18.2C16.2 15.7 19.2 10.6 19.5 4.5Z" fill="#FFFFFF" fill-opacity="0.15" stroke="#FFFFFF" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M5 19L12.4 11.6" stroke="#FFFFFF" stroke-width="1.75" stroke-linecap="round"/>
+        <circle cx="14.1" cy="9.9" r="1.45" fill="#FFFFFF"/>
+      </g>
+    </g>
+
+    <!-- Title & Version Pill -->
+    <g font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+      <text x="136" y="112" font-size="48" font-weight="700" letter-spacing="-1.5" fill="#F8FAFC">Nova<tspan fill="url(#nd-wordmark-accent)">TeX</tspan></text>
+
+      <!-- Subtle Version Tag Pill -->
+      <rect x="342" y="84" width="166" height="26" rx="13" fill="#10B981" fill-opacity="0.10" stroke="#10B981" stroke-opacity="0.34" stroke-width="1"/>
+      <circle cx="358" cy="97" r="3.2" fill="#34D399"/>
+      <text x="369" y="100.5" font-size="10.2" font-weight="600" letter-spacing="0.5" fill="#6EE7B7" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">LOCAL-FIRST · MIT</text>
+
+      <!-- 2-Line Crisp English Subtitle -->
+      <text x="48" y="168" font-size="15.2" font-weight="600" fill="#E2E8F0">Multi-Format LaTeX Studio for Lab Reports, Technical Docs &amp; Papers</text>
+      <text x="48" y="196" font-size="13.2" font-weight="400" fill="#94A3B8">Edit in LaTeX, Markdown, or Word — compile to live PDF without breaking templates.</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Stylized Miniature 3-Pane Studio UI Mockup (x=680..1152, y=34..226) -->
+  <g transform="translate(680, 34)">
+    <!-- Subtle Elevation Shadow -->
+    <rect x="0" y="3" width="472" height="192" rx="12" fill="#000000" fill-opacity="0.32"/>
+
+    <g clip-path="url(#nd-studio-clip)">
+      <!-- Studio Frame Background -->
+      <rect x="0" y="0" width="472" height="192" fill="url(#nd-studio-bg)"/>
+
+      <!-- Mini Unified Topbar (y=0..28) -->
+      <rect x="0" y="0" width="472" height="28" fill="#151B28"/>
+      <line x1="0" y1="28" x2="472" y2="28" stroke="#232A38" stroke-width="1"/>
+
+      <!-- Window Control Dots -->
+      <circle cx="14" cy="14" r="3" fill="#F87171" fill-opacity="0.82"/>
+      <circle cx="24" cy="14" r="3" fill="#FBBF24" fill-opacity="0.82"/>
+      <circle cx="34" cy="14" r="3" fill="#34D399" fill-opacity="0.82"/>
+
+      <!-- 3 Segmented Mode Pills: LaTeX (Active) | Markdown | Word -->
+      <rect x="86" y="5" width="184" height="18" rx="9" fill="#0C0F16" stroke="#252E3F" stroke-width="0.9"/>
+      <rect x="88" y="7" width="56" height="14" rx="7" fill="#0F7B4C"/>
+      <g font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" text-anchor="middle">
+        <text x="116" y="16.8" font-weight="700" fill="#FFFFFF">LaTeX</text>
+        <text x="180" y="16.8" font-weight="500" fill="#8B98AD">Markdown</text>
+        <text x="240" y="16.8" font-weight="500" fill="#8B98AD">Word</text>
+      </g>
+
+      <!-- Lab Toolkit Action Chip -->
+      <rect x="284" y="5.5" width="72" height="17" rx="8.5" fill="#818CF8" fill-opacity="0.12" stroke="#818CF8" stroke-opacity="0.38" stroke-width="0.9"/>
+      <text x="320" y="16.8" text-anchor="middle" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.2" font-weight="600" fill="#C7D2FE">Lab Toolkit</text>
+
+      <!-- Compile PDF Action Pill -->
+      <rect x="364" y="5.5" width="96" height="17" rx="8.5" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.45" stroke-width="0.9"/>
+      <circle cx="376" cy="14" r="3" fill="#34D399"/>
+      <text x="384" y="17" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" font-weight="600" fill="#D1FAE5">Compile PDF</text>
+
+      <!-- Pane 1: Left Sidebar File Tree (x=0..98) -->
+      <rect x="0" y="28" width="98" height="164" fill="#0F141F"/>
+      <line x1="98" y1="28" x2="98" y2="192" stroke="#202736" stroke-width="1"/>
+
+      <text x="10" y="42" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="7" font-weight="700" letter-spacing="0.8" fill="#64748B">WORKSPACE</text>
+
+      <!-- sections/ folder -->
+      <path d="M10 54.5 L13.5 57.5 L17 54.5" fill="none" stroke="#64748B" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="21" y="59" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.2" font-weight="500" fill="#94A3B8">sections/</text>
+
+      <!-- setup.tex -->
+      <rect x="20" y="68" width="4" height="5" rx="0.8" fill="#475569"/>
+      <text x="28" y="73" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="7.9" fill="#64748B">setup.tex</text>
+
+      <!-- main.tex (Highlighted Active File) -->
+      <rect x="5" y="79" width="88" height="18" rx="4.5" fill="#10B981" fill-opacity="0.16" stroke="#10B981" stroke-opacity="0.32" stroke-width="0.8"/>
+      <rect x="5" y="82.5" width="2.2" height="11" rx="1.1" fill="#34D399"/>
+      <rect x="13" y="85.5" width="4.5" height="5.5" rx="0.8" fill="#34D399"/>
+      <text x="22" y="91" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.2" font-weight="600" fill="#ECFDF5">main.tex</text>
+
+      <!-- figures/ -->
+      <rect x="20" y="103" width="4" height="5" rx="0.8" fill="#38BDF8" fill-opacity="0.8"/>
+      <text x="28" y="108" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="7.9" fill="#94A3B8">plot.png</text>
+
+      <!-- refs.bib -->
+      <rect x="13" y="118.5" width="4.5" height="5.5" rx="0.8" fill="#818CF8" fill-opacity="0.85"/>
+      <text x="22" y="124" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.2" fill="#94A3B8">refs.bib</text>
+
+      <!-- preamble.tex -->
+      <circle cx="15.2" cy="137" r="2.2" fill="none" stroke="#10B981" stroke-width="1"/>
+      <text x="22" y="140" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="7.7" fill="#64748B">preamble.tex</text>
+
+      <!-- Mini Sidebar Footer Status -->
+      <line x1="8" y1="168" x2="90" y2="168" stroke="#1E2534" stroke-width="0.8"/>
+      <circle cx="14" cy="180" r="2.4" fill="#10B981"/>
+      <text x="21" y="182.5" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="7.5" font-weight="500" fill="#64748B">SyncTeX Ready</text>
+
+      <!-- Pane 2: Center Code Editor (x=98..304) -->
+      <rect x="98" y="28" width="206" height="164" fill="#0D111A"/>
+      <line x1="304" y1="28" x2="304" y2="192" stroke="#202736" stroke-width="1"/>
+
+      <!-- Code Breadcrumb / Preamble Lock Strip -->
+      <rect x="98" y="28" width="206" height="18" fill="#111622"/>
+      <line x1="98" y1="46" x2="304" y2="46" stroke="#1D2433" stroke-width="0.9"/>
+      <text x="107" y="40" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="7.8" font-weight="600" fill="#CBD5E1">main.tex</text>
+      <rect x="234" y="31.5" width="62" height="11.5" rx="5.75" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.32" stroke-width="0.7"/>
+      <text x="265" y="39.5" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="6.4" font-weight="600" fill="#6EE7B7">PREAMBLE LOCK</text>
+
+      <!-- Active Equation Line Highlight -->
+      <rect x="98" y="92" width="206" height="14" fill="#10B981" fill-opacity="0.10"/>
+      <rect x="98" y="92" width="2" height="14" fill="#10B981"/>
+
+      <!-- Gutter Line Numbers -->
+      <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="7.2" fill="#475569" text-anchor="end">
+        <text x="115" y="60">1</text>
+        <text x="115" y="74">2</text>
+        <text x="115" y="88">3</text>
+        <text x="115" y="102" fill="#34D399" font-weight="600">4</text>
+        <text x="115" y="116">5</text>
+        <text x="115" y="130">6</text>
+        <text x="115" y="144">7</text>
+        <text x="115" y="158">8</text>
+        <text x="115" y="172">9</text>
+      </g>
+
+      <!-- Stylized LaTeX Syntax Lines -->
+      <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="7.9">
+        <text x="122" y="60"><tspan fill="#A5B4FC">\section</tspan><tspan fill="#64748B">{</tspan><tspan fill="#34D399">Lab Results</tspan><tspan fill="#64748B">}</tspan></text>
+        <text x="122" y="74" fill="#94A3B8">Measured objective loss:</text>
+        <text x="122" y="88"><tspan fill="#A5B4FC">\begin</tspan><tspan fill="#64748B">{</tspan><tspan fill="#38BDF8">equation</tspan><tspan fill="#64748B">}</tspan></text>
+        <text x="131" y="102"><tspan fill="#F1F5F9">L(</tspan><tspan fill="#A5B4FC">\theta</tspan><tspan fill="#F1F5F9">) = </tspan><tspan fill="#A5B4FC">\sum</tspan><tspan fill="#64748B">_i </tspan><tspan fill="#A5B4FC">\alpha</tspan><tspan fill="#64748B">_i </tspan><tspan fill="#F1F5F9">x_i</tspan></text>
+        <text x="122" y="116"><tspan fill="#A5B4FC">\end</tspan><tspan fill="#64748B">{</tspan><tspan fill="#38BDF8">equation</tspan><tspan fill="#64748B">}</tspan></text>
+        <text x="122" y="130" fill="#52607A">% Lab Toolkit: CSV -&gt; Booktabs</text>
+        <text x="122" y="144"><tspan fill="#A5B4FC">\begin</tspan><tspan fill="#64748B">{</tspan><tspan fill="#34D399">tabular</tspan><tspan fill="#64748B">}{</tspan><tspan fill="#CBD5E1">lcc</tspan><tspan fill="#64748B">}</tspan></text>
+        <text x="131" y="158"><tspan fill="#E2E8F0">Run 3 </tspan><tspan fill="#64748B">&amp; </tspan><tspan fill="#34D399">98.4%</tspan><tspan fill="#64748B"> &amp; </tspan><tspan fill="#E2E8F0">12ms </tspan><tspan fill="#A5B4FC">\\</tspan></text>
+        <text x="122" y="172"><tspan fill="#A5B4FC">\end</tspan><tspan fill="#64748B">{</tspan><tspan fill="#34D399">tabular</tspan><tspan fill="#64748B">}</tspan></text>
+      </g>
+
+      <!-- Clean Local Caret on Active Equation Line -->
+      <rect x="279" y="94" width="1.5" height="10" fill="#34D399"/>
+
+      <!-- Pane 3: Right Floating A4 PDF Preview (x=304..472) -->
+      <rect x="304" y="28" width="168" height="164" fill="#0A0D14"/>
+
+      <!-- A4 Page Drop Shadow -->
+      <rect x="326" y="39" width="124" height="134" rx="4" fill="#000000" fill-opacity="0.45"/>
+      <!-- Crisp White A4 PDF Card -->
+      <rect x="326" y="37" width="124" height="134" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+
+      <!-- Rendered Report Header -->
+      <rect x="344" y="46" width="88" height="4.5" rx="1.5" fill="#0F172A"/>
+      <rect x="359" y="54" width="58" height="2.4" rx="1" fill="#94A3B8"/>
+
+      <!-- Rendered Section 2. Lab Results -->
+      <text x="336" y="68" font-family="'Times New Roman', Georgia, serif" font-size="6.8" font-weight="700" fill="#0F172A">2. Lab Results</text>
+      <rect x="336" y="72.5" width="104" height="2.2" rx="1" fill="#CBD5E1"/>
+      <rect x="336" y="77" width="88" height="2.2" rx="1" fill="#CBD5E1"/>
+
+      <!-- Emerald SyncTeX Highlight Box around Equation -->
+      <rect x="334" y="83" width="108" height="22" rx="3" fill="#10B981" fill-opacity="0.16" stroke="#0F7B4C" stroke-width="1"/>
+      <text x="341" y="96.5" font-family="'Times New Roman', Georgia, serif" font-size="8.2" fill="#064E3B"><tspan font-style="italic">L</tspan>(θ) = Σ <tspan font-style="italic">α</tspan><tspan font-size="5.5" dy="2">i</tspan><tspan dy="-2"> </tspan><tspan font-style="italic">x</tspan><tspan font-size="5.5" dy="2">i</tspan></text>
+      <text x="437" y="96.5" text-anchor="end" font-family="'Times New Roman', Georgia, serif" font-size="6.2" fill="#047857">(1)</text>
+
+      <!-- Rendered Booktabs Three-Line Table -->
+      <line x1="336" y1="113" x2="440" y2="113" stroke="#0F172A" stroke-width="0.9"/>
+      <rect x="338" y="116.5" width="24" height="2.5" rx="1" fill="#334155"/>
+      <rect x="380" y="116.5" width="16" height="2.5" rx="1" fill="#334155"/>
+      <rect x="414" y="116.5" width="22" height="2.5" rx="1" fill="#334155"/>
+      <line x1="336" y1="122" x2="440" y2="122" stroke="#64748B" stroke-width="0.5"/>
+      <rect x="338" y="126" width="28" height="2.2" rx="1" fill="#94A3B8"/>
+      <rect x="380" y="126" width="14" height="2.2" rx="1" fill="#94A3B8"/>
+      <rect x="414" y="126" width="18" height="2.2" rx="1" fill="#94A3B8"/>
+      <rect x="338" y="132.5" width="30" height="2.4" rx="1" fill="#0F7B4C"/>
+      <rect x="380" y="132.5" width="16" height="2.4" rx="1" fill="#0F7B4C"/>
+      <rect x="414" y="132.5" width="16" height="2.4" rx="1" fill="#334155"/>
+      <line x1="336" y1="138.5" x2="440" y2="138.5" stroke="#0F172A" stroke-width="0.9"/>
+
+      <!-- Rendered Body Lines Below Table -->
+      <rect x="336" y="144" width="100" height="2.1" rx="1" fill="#CBD5E1"/>
+      <rect x="336" y="148.5" width="76" height="2.1" rx="1" fill="#CBD5E1"/>
+      <text x="388" y="164" text-anchor="middle" font-family="'Times New Roman', Georgia, serif" font-size="5.5" fill="#94A3B8">1</text>
+
+      <!-- Tiny Floating Page Dock (1 / 4 · 100%) -->
+      <rect x="342" y="169" width="92" height="16" rx="8" fill="#161C29" stroke="#2A3346" stroke-width="0.9"/>
+      <text x="388" y="179.8" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="7.6" font-weight="600" fill="#CBD5E1">1 / 4 · 100%</text>
+    </g>
+
+    <!-- Studio Mockup Outer Hairline Border -->
+    <rect x="0" y="0" width="472" height="192" rx="12" fill="none" stroke="#263042" stroke-width="1.2"/>
+  </g>
+
+  <!-- Bottom Capability Pill Row (4 Crisp Pills Spanning x=48..1152) -->
+  <g font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">
+    <!-- Pill 1: Emerald Accent -->
+    <rect x="48" y="266" width="234" height="42" rx="21" fill="url(#nd-pill-bg)" stroke="#10B981" stroke-opacity="0.45" stroke-width="1.2"/>
+    <circle cx="72" cy="287" r="4.2" fill="#10B981"/>
+    <text x="84" y="291.2" fill="#F1F5F9">LaTeX ↔ MD ↔ Word ↔ PDF</text>
+
+    <!-- Pill 2: Indigo Accent -->
+    <rect x="296" y="266" width="236" height="42" rx="21" fill="url(#nd-pill-bg)" stroke="#818CF8" stroke-opacity="0.40" stroke-width="1.2"/>
+    <circle cx="324" cy="287" r="4.2" fill="#818CF8"/>
+    <text x="336" y="291.2" fill="#F1F5F9">7 Lab &amp; Paper Templates</text>
+
+    <!-- Pill 3: Sky Accent -->
+    <rect x="546" y="266" width="292" height="42" rx="21" fill="url(#nd-pill-bg)" stroke="#38BDF8" stroke-opacity="0.40" stroke-width="1.2"/>
+    <circle cx="572" cy="287" r="4.2" fill="#38BDF8"/>
+    <text x="584" y="291.2" fill="#F1F5F9">CSV→Booktabs · Code · Figures</text>
+
+    <!-- Pill 4: Teal Accent -->
+    <rect x="852" y="266" width="300" height="42" rx="21" fill="url(#nd-pill-bg)" stroke="#2DD4BF" stroke-opacity="0.40" stroke-width="1.2"/>
+    <circle cx="878" cy="287" r="4.2" fill="#2DD4BF"/>
+    <text x="890" y="291.2" fill="#F1F5F9">Scoped BYOK AI · Sandboxed TeX</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+{
+  "name": "novatex-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "NovaTeX — AI-era minimalist collaborative LaTeX studio with DeepSeek Error-to-Fix, 4-Layer Academic Format Hub, and Local Agent Sync",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build": "npm run build --workspace=@novatex/shared && npm run build --workspace=@novatex/compiler && npm run build --workspace=@novatex/ai-fixer && npm run build --workspace=@novatex/format-hub && npm run build --workspace=@novatex/sync-cli && npm run build --workspace=@novatex/worker && npm run build --workspace=@novatex/server && npm run build --workspace=@novatex/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev:server": "npm run dev --workspace=@novatex/server",
+    "dev:web": "npm run dev --workspace=@novatex/web",
+    "dev:worker": "npm run dev --workspace=@novatex/worker",
+    "start": "npm run start --workspace=@novatex/server",
+    "start:worker": "npm run start --workspace=@novatex/worker",
+    "sync": "npm run start --workspace=@novatex/sync-cli --"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.5"
+  }
+}

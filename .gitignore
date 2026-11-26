@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+*.tsbuildinfo
+
+# Local runtime data, private deploy configs & portable tools (never commit)
+.local-data/
+.local-tools/
+.local-deploy/
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
+# Secrets & environment files
+.env
+.env.local
+.env.*.local
+
+# Logs & temp
+*.log
+tmp/
+.tmp/
+.DS_Store
+Thumbs.db

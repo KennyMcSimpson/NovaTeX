@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-test:
+    name: Build, Typecheck & Test (Ubuntu, Node 24)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install Pandoc for Format Hub tests
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends pandoc
+          pandoc --version
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build all workspaces
+        run: npm run build
+
+      - name: Run TypeScript typecheck
+        run: npm run typecheck
+
+      - name: Run TeX-free unit & integration test suites
+        run: >-
+          npx vitest run
+          packages/shared
+          packages/compiler
+          packages/ai-fixer
+          packages/format-hub
+          packages/sync-cli
+          apps/worker
+
+      - name: Verify novatex-sync CLI entrypoint
+        run: node packages/sync-cli/dist/cli.js --help

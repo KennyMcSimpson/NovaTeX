@@ -1,0 +1,22 @@
+{
+  "name": "@novatex/format-hub",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@novatex/shared": "*",
+    "fflate": "^0.8.2",
+    "pdfjs-dist": "^4.10.38"
+  }
+}

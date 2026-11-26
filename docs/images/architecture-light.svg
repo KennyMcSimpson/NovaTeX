@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="arl-title arl-desc">
+  <title id="arl-title">Local-First Architecture &amp; Hardened Compilation Boundary</title>
+  <desc id="arl-desc">Three-tier horizontal NovaTeX architecture: Tier 1 Clients (Local Web Studio and Local AI Agents via novatex-sync CLI), Tier 2 Single-Port NovaTeX Server (Express HTTP + Local Workspace, Local SQLite WAL + Native Git, AES-256-GCM BYOK AI with Public-Only SSRF and DNS guard, Format Hub and Lab Toolkit), crossing a hardened compilation boundary into Tier 3 Hardened TeX Sandbox (Local Embedded Sandbox or Optional Remote Worker with HMAC-SHA256 replay protection and strict TeX confinement).</desc>
+  <defs>
+    <linearGradient id="arl-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FAFBFD"/>
+      <stop offset="100%" stop-color="#F1F6F4"/>
+    </linearGradient>
+    <linearGradient id="arl-server-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3FCF8"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="arl-sandbox-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFDF5"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="arl-emerald-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0F7B4C"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="arl-amber-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="arl-arr-c1" x1="334" y1="136" x2="402" y2="136" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#0F7B4C"/>
+    </linearGradient>
+    <linearGradient id="arl-arr-c2" x1="334" y1="274" x2="402" y2="274" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0F7B4C"/>
+    </linearGradient>
+    <linearGradient id="arl-arr-sb" x1="780" y1="146" x2="854" y2="146" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F7B4C"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <clipPath id="arl-outer-clip">
+      <rect x="4" y="4" width="1192" height="352" rx="18"/>
+    </clipPath>
+    <clipPath id="arl-client-clip">
+      <rect x="0" y="0" width="304" height="124" rx="13"/>
+    </clipPath>
+    <clipPath id="arl-server-clip">
+      <rect x="0" y="0" width="374" height="262" rx="14"/>
+    </clipPath>
+    <clipPath id="arl-sandbox-clip">
+      <rect x="0" y="0" width="316" height="262" rx="14"/>
+    </clipPath>
+    <pattern id="arl-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0F7B4C" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer Canvas -->
+  <g clip-path="url(#arl-outer-clip)">
+    <rect x="4" y="4" width="1192" height="352" fill="url(#arl-bg)"/>
+    <rect x="4" y="4" width="1192" height="352" fill="url(#arl-grid)"/>
+  </g>
+  <rect x="4" y="4" width="1192" height="352" rx="18" fill="none" stroke="#D1DFD9" stroke-width="1.5"/>
+  <rect x="5.5" y="5.5" width="1189" height="349" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.80" stroke-width="1"/>
+
+  <!-- Header Strip -->
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <circle cx="33" cy="28" r="4" fill="#0F7B4C"/>
+    <text x="46" y="32" font-size="11.2" font-weight="700" letter-spacing="1.3" fill="#0F7B4C" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">LOCAL-FIRST ARCHITECTURE &amp; HARDENED COMPILATION BOUNDARY</text>
+    <text x="1172" y="32" text-anchor="end" font-size="11.6" font-weight="500" fill="#475569">Single-Port Core · Zero External DBs · Isolated TeX</text>
+    <line x1="28" y1="45" x2="1172" y2="45" stroke="#0F7B4C" stroke-opacity="0.10" stroke-width="1"/>
+  </g>
+
+  <!-- Tier Column Eyebrows -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.0">
+    <rect x="28" y="53" width="50" height="16" rx="8" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="0.8"/>
+    <text x="53" y="64.5" text-anchor="middle" fill="#3730A3">TIER 1</text>
+    <text x="86" y="64.5" fill="#475569">CLIENTS</text>
+
+    <rect x="404" y="53" width="50" height="16" rx="8" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="0.8"/>
+    <text x="429" y="64.5" text-anchor="middle" fill="#065F46">TIER 2</text>
+    <text x="462" y="64.5" fill="#0F7B4C">SINGLE-PORT NOVATEX SERVER</text>
+
+    <rect x="856" y="53" width="50" height="16" rx="8" fill="#FFFBEB" stroke="#FCD34D" stroke-width="0.8"/>
+    <text x="881" y="64.5" text-anchor="middle" fill="#92400E">TIER 3</text>
+    <text x="914" y="64.5" fill="#B45309">HARDENED TEX SANDBOX</text>
+  </g>
+
+  <!-- TIER 1: CLIENTS (x=28..332, y=75..337) -->
+  <g transform="translate(28, 75)" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- Client 1: Local Web Studio -->
+    <g>
+      <rect x="0" y="2.5" width="304" height="124" rx="13" fill="#0F291E" fill-opacity="0.045"/>
+      <g clip-path="url(#arl-client-clip)">
+        <rect x="0" y="0" width="304" height="124" fill="#FFFFFF"/>
+        <rect x="0" y="0" width="304" height="4" fill="#4F46E5"/>
+      </g>
+      <rect x="0" y="0" width="304" height="124" rx="13" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+      <text x="16" y="29" font-size="14.5" font-weight="700" fill="#0F172A">Local Web Studio</text>
+      <rect x="224" y="14" width="66" height="19" rx="9.5" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="0.9"/>
+      <text x="257" y="26.8" text-anchor="middle" font-size="9.2" font-weight="700" fill="#3730A3" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">BROWSER</text>
+      <text x="16" y="50" font-size="11.2" font-weight="500" fill="#4338CA">React 19 + CodeMirror 6 + PDF.js</text>
+
+      <rect x="14" y="63" width="276" height="27" rx="6.5" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+      <text x="152" y="80.5" text-anchor="middle" font-size="10.8" font-weight="700" fill="#312E81" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">LaTeX  |  Markdown  |  Word</text>
+
+      <text x="16" y="109" font-size="10.2" fill="#475569">7 Templates · Lab Toolkit · Range 206 PDF</text>
+    </g>
+
+    <!-- Client 2: Local AI Agents -->
+    <g transform="translate(0, 138)">
+      <rect x="0" y="2.5" width="304" height="124" rx="13" fill="#0F291E" fill-opacity="0.045"/>
+      <g clip-path="url(#arl-client-clip)">
+        <rect x="0" y="0" width="304" height="124" fill="#FFFFFF"/>
+        <rect x="0" y="0" width="304" height="4" fill="#0284C7"/>
+      </g>
+      <rect x="0" y="0" width="304" height="124" rx="13" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+      <text x="16" y="29" font-size="14.5" font-weight="700" fill="#0F172A">Local AI Agents</text>
+      <rect x="248" y="14" width="42" height="19" rx="9.5" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="0.9"/>
+      <text x="269" y="26.8" text-anchor="middle" font-size="9.2" font-weight="700" fill="#075985" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">CLI</text>
+      <text x="16" y="50" font-size="11.2" font-weight="700" fill="#0369A1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">novatex-sync CLI</text>
+
+      <rect x="14" y="63" width="276" height="47" rx="6.5" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="24" y="82" font-size="10.6" font-weight="600" fill="#0F172A">Live workspace sync for Codex / Claude / AG</text>
+      <text x="24" y="99" font-size="9.6" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">Scoped tokens · Minimal diffs · SHA-256</text>
+    </g>
+  </g>
+
+  <!-- CONNECTOR LANE 1 <-> 2 (x=332..404) -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <!-- Local Web Studio <-> Server -->
+    <rect x="337" y="110" width="62" height="18" rx="9" fill="#EEF2FF" stroke="#A5B4FC" stroke-width="0.9"/>
+    <text x="368" y="122" text-anchor="middle" font-size="8.7" font-weight="700" fill="#3730A3">HTTP/206</text>
+    <line x1="341" y1="137" x2="395" y2="137" stroke="url(#arl-arr-c1)" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="343,132.5 334,137 343,141.5" fill="#4F46E5"/>
+    <polygon points="393,132.5 402,137 393,141.5" fill="#0F7B4C"/>
+    <text x="368" y="153" text-anchor="middle" font-size="8.7" fill="#64748B">REST API</text>
+
+    <!-- Local Agents <-> Server -->
+    <rect x="337" y="248" width="62" height="18" rx="9" fill="#F0F9FF" stroke="#7DD3FC" stroke-width="0.9"/>
+    <text x="368" y="260" text-anchor="middle" font-size="8.8" font-weight="700" fill="#075985">CLI Sync</text>
+    <line x1="341" y1="275" x2="395" y2="275" stroke="url(#arl-arr-c2)" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="343,270.5 334,275 343,279.5" fill="#0284C7"/>
+    <polygon points="393,270.5 402,275 393,279.5" fill="#0F7B4C"/>
+    <text x="368" y="291" text-anchor="middle" font-size="8.7" fill="#64748B">Diff Sync</text>
+  </g>
+
+  <!-- TIER 2: SINGLE-PORT NOVATEX SERVER (x=404..778, y=75..337) -->
+  <g transform="translate(404, 75)" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <rect x="0" y="3" width="374" height="262" rx="14" fill="#0F7B4C" fill-opacity="0.08"/>
+    <g clip-path="url(#arl-server-clip)">
+      <rect x="0" y="0" width="374" height="262" fill="url(#arl-server-bg)"/>
+      <rect x="0" y="0" width="374" height="4.5" fill="url(#arl-emerald-bar)"/>
+    </g>
+    <rect x="0" y="0" width="374" height="262" rx="14" fill="none" stroke="#10B981" stroke-opacity="0.72" stroke-width="1.5"/>
+
+    <!-- Server Header -->
+    <text x="16" y="30" font-size="14" font-weight="700" fill="#0F172A">Single-Port NovaTeX Server</text>
+    <rect x="266" y="15" width="94" height="20" rx="10" fill="#0F7B4C"/>
+    <text x="313" y="28.2" text-anchor="middle" font-size="9.2" font-weight="700" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">NODE.JS CORE</text>
+
+    <!-- Module 1: Express HTTP + Local Workspace -->
+    <rect x="14" y="44" width="346" height="42" rx="8" fill="#FFFFFF" stroke="#D1FAE5" stroke-width="1.1"/>
+    <circle cx="27" cy="60" r="3.4" fill="#0F7B4C"/>
+    <text x="38" y="63.5" font-size="11.8" font-weight="700" fill="#0F172A">Express HTTP + Local Workspace</text>
+    <text x="38" y="79" font-size="9.7" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">Single port · Auth · Range 206 · Opt-in Collab</text>
+
+    <!-- Module 2: Local SQLite (WAL) + Native Git -->
+    <rect x="14" y="93" width="346" height="44" rx="8" fill="#FFFFFF" stroke="#D1FAE5" stroke-width="1.1"/>
+    <circle cx="27" cy="110" r="3.4" fill="#10B981"/>
+    <text x="38" y="113.5" font-size="11.8" font-weight="700" fill="#0F172A">Local SQLite (WAL) + Native Git</text>
+    <rect x="234" y="100" width="118" height="18" rx="9" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="0.9"/>
+    <text x="293" y="112" text-anchor="middle" font-size="8.8" font-weight="700" fill="#065F46" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">Zero MongoDB/Redis</text>
+    <text x="38" y="130" font-size="9.8" fill="#475569">node:sqlite ACID state · Git history &amp; restore</text>
+
+    <!-- Module 3: BYOK AI Vault & SSRF Guard -->
+    <rect x="14" y="144" width="346" height="55" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="1.15"/>
+    <circle cx="27" cy="160.5" r="3.4" fill="#D97706"/>
+    <text x="38" y="164" font-size="11.8" font-weight="700" fill="#064E3B">BYOK AI Vault &amp; SSRF Guard</text>
+    <rect x="256" y="150.5" width="96" height="18" rx="9" fill="#FFFBEB" stroke="#FCD34D" stroke-width="0.9"/>
+    <text x="304" y="162.5" text-anchor="middle" font-size="9" font-weight="700" fill="#92400E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">AES-256-GCM</text>
+    <text x="38" y="179" font-size="9.7" font-weight="600" fill="#047857" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">AES-256-GCM at rest · Zero plaintext keys</text>
+    <text x="38" y="192" font-size="9.7" font-weight="600" fill="#92400E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">Strict Public-Only SSRF + Async DNS Guard</text>
+
+    <!-- Module 4: Format Hub & Lab Toolkit -->
+    <rect x="14" y="206" width="346" height="44" rx="8" fill="#FFFFFF" stroke="#C7D2FE" stroke-width="1.1"/>
+    <circle cx="27" cy="223" r="3.4" fill="#4F46E5"/>
+    <text x="38" y="226.5" font-size="11.8" font-weight="700" fill="#0F172A">Format Hub &amp; Lab Toolkit</text>
+    <rect x="216" y="213" width="136" height="18" rx="9" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="0.9"/>
+    <text x="284" y="225" text-anchor="middle" font-size="8.8" font-weight="700" fill="#3730A3" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">Bilingual reference.docx</text>
+    <text x="38" y="242.5" font-size="9.7" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">Pandoc + Lua · OMML / Citeproc / MD-Compile</text>
+  </g>
+
+  <!-- HARDENED COMPILATION BOUNDARY & CONNECTORS 2 <-> 3 (x=778..856) -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <!-- Vertical Dashed Trust Boundary Line -->
+    <line x1="817" y1="75" x2="817" y2="337" stroke="#D97706" stroke-opacity="0.72" stroke-width="1.6" stroke-dasharray="5 4"/>
+    <rect x="785" y="77" width="64" height="17" rx="8.5" fill="#FFFBEB" stroke="#F59E0B" stroke-width="0.9"/>
+    <text x="817" y="88.5" text-anchor="middle" font-size="8.2" font-weight="700" fill="#92400E">BOUNDARY</text>
+
+    <!-- Route A: Local Embedded Sandbox -->
+    <line x1="780" y1="145" x2="846" y2="145" stroke="url(#arl-arr-sb)" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="844,140.5 854,145 844,149.5" fill="#D97706"/>
+    <rect x="791" y="121" width="52" height="17" rx="8.5" fill="#FFFBEB" stroke="#F59E0B" stroke-width="0.9"/>
+    <text x="817" y="132.5" text-anchor="middle" font-size="8.8" font-weight="700" fill="#92400E">Local</text>
+
+    <!-- Route B: Optional Remote Worker (HMAC) -->
+    <line x1="780" y1="215" x2="846" y2="215" stroke="url(#arl-arr-sb)" stroke-width="2" stroke-dasharray="4 2.5" stroke-linecap="round"/>
+    <polygon points="844,210.5 854,215 844,219.5" fill="#D97706"/>
+    <rect x="787" y="191" width="60" height="17" rx="8.5" fill="#FFFBEB" stroke="#F59E0B" stroke-width="0.9"/>
+    <text x="817" y="202.5" text-anchor="middle" font-size="8.8" font-weight="700" fill="#92400E">HMAC</text>
+
+    <!-- Return Path: Compiled PDF + Diagnostics -->
+    <line x1="852" y1="295" x2="788" y2="295" stroke="#0F7B4C" stroke-width="1.9" stroke-linecap="round"/>
+    <polygon points="790,290.5 780,295 790,299.5" fill="#0F7B4C"/>
+    <rect x="786" y="271" width="62" height="17" rx="8.5" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="0.9"/>
+    <text x="817" y="282.5" text-anchor="middle" font-size="8.6" font-weight="700" fill="#065F46">PDF+Log</text>
+  </g>
+
+  <!-- TIER 3: HARDENED TEX SANDBOX (x=856..1172, y=75..337) -->
+  <g transform="translate(856, 75)" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <rect x="0" y="3" width="316" height="262" rx="14" fill="#B45309" fill-opacity="0.06"/>
+    <g clip-path="url(#arl-sandbox-clip)">
+      <rect x="0" y="0" width="316" height="262" fill="url(#arl-sandbox-bg)"/>
+      <rect x="0" y="0" width="316" height="4.5" fill="url(#arl-amber-bar)"/>
+    </g>
+    <rect x="0" y="0" width="316" height="262" rx="14" fill="none" stroke="#F59E0B" stroke-opacity="0.72" stroke-width="1.5"/>
+
+    <!-- Header -->
+    <text x="16" y="30" font-size="13.8" font-weight="700" fill="#0F172A">Hardened TeX Sandbox</text>
+    <rect x="224" y="15" width="78" height="20" rx="10" fill="#FEF3C7" stroke="#F59E0B" stroke-width="0.9"/>
+    <text x="263" y="28.2" text-anchor="middle" font-size="9.2" font-weight="700" fill="#92400E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">ISOLATED</text>
+
+    <!-- Option A: Local Embedded Sandbox -->
+    <rect x="14" y="45" width="288" height="48" rx="8.5" fill="#FFFFFF" stroke="#A7F3D0" stroke-width="1.1"/>
+    <circle cx="27" cy="63" r="3.4" fill="#0F7B4C"/>
+    <text x="38" y="67" font-size="11.8" font-weight="700" fill="#0F172A">Local Embedded Sandbox</text>
+    <text x="38" y="83.5" font-size="10.1" fill="#475569">Ephemeral per-job build workspace</text>
+
+    <!-- OR Divider -->
+    <line x1="26" y1="104" x2="138" y2="104" stroke="#F59E0B" stroke-opacity="0.45" stroke-width="1"/>
+    <rect x="142" y="96" width="32" height="16" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="0.9"/>
+    <text x="158" y="107.2" text-anchor="middle" font-size="9" font-weight="700" fill="#92400E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">OR</text>
+    <line x1="178" y1="104" x2="290" y2="104" stroke="#F59E0B" stroke-opacity="0.45" stroke-width="1"/>
+
+    <!-- Option B: Optional Remote Worker -->
+    <rect x="14" y="115" width="288" height="51" rx="8.5" fill="#FFFFFF" stroke="#FCD34D" stroke-width="1.1"/>
+    <circle cx="27" cy="133" r="3.4" fill="#D97706"/>
+    <text x="38" y="137" font-size="11.8" font-weight="700" fill="#0F172A">Optional Remote Worker</text>
+    <text x="38" y="155" font-size="9.7" font-weight="600" fill="#B45309" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">HMAC-SHA256 + 5m Replay Window</text>
+
+    <!-- Hardened Enforcement Guardrails Box -->
+    <rect x="12" y="175" width="292" height="77" rx="9" fill="#FFFBEB" stroke="#D97706" stroke-opacity="0.65" stroke-width="1.1" stroke-dasharray="4 3"/>
+    <text x="22" y="192" font-size="9.3" font-weight="700" letter-spacing="0.9" fill="#92400E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">ENFORCED COMPILE CONFINEMENT</text>
+
+    <!-- Guardrail Pills (2x2) -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-weight="700">
+      <rect x="20" y="200" width="132" height="20" rx="5.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="0.9"/>
+      <text x="86" y="213.2" text-anchor="middle" font-size="9.2" fill="#78350F">-no-shell-escape</text>
+
+      <rect x="158" y="200" width="138" height="20" rx="5.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="0.9"/>
+      <text x="227" y="213.2" text-anchor="middle" font-size="9.2" fill="#78350F">No .latexmkrc</text>
+
+      <rect x="20" y="225" width="180" height="20" rx="5.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="0.9"/>
+      <text x="110" y="238.2" text-anchor="middle" font-size="8.7" fill="#78350F">texmf.cnf (openin/out_any=p)</text>
+
+      <rect x="206" y="225" width="90" height="20" rx="5.5" fill="#FFFFFF" stroke="#F59E0B" stroke-width="0.9"/>
+      <text x="251" y="238.2" text-anchor="middle" font-size="8.9" fill="#78350F">60s Tree Kill</text>
+    </g>
+  </g>
+</svg>

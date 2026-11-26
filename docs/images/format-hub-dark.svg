@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="fhd-title fhd-desc">
+  <title id="fhd-title">Four-Layer Format Interchange Hub — Switch Formats Seamlessly Without Breaking Templates</title>
+  <desc id="fhd-desc">Three-stage NovaTeX format interchange flow: Stage 1 multi-format inputs and Lab Toolkit (Word .docx for submissions and reviewers, Markdown .md for AI agents and drafting, CSV/Code/.txt/.pdf Lab Toolkit and draft intake) connect bidirectionally to Stage 2 Preamble-Locked LaTeX Hub (.tex single source of truth with Preamble Lock, Red/Green Diff, Local Git History, and Scoped BYOK AI), compiling into Stage 3 Live Compiled PDF Output with Sandboxed TeX, HTTP Range 206 streaming, and Pure-TS Bidirectional SyncTeX.</desc>
+  <defs>
+    <linearGradient id="fhd-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0C0F16"/>
+      <stop offset="100%" stop-color="#111723"/>
+    </linearGradient>
+    <linearGradient id="fhd-card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151B28"/>
+      <stop offset="100%" stop-color="#10151F"/>
+    </linearGradient>
+    <linearGradient id="fhd-hub-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E1E19"/>
+      <stop offset="100%" stop-color="#0B1513"/>
+    </linearGradient>
+    <linearGradient id="fhd-emerald-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0F7B4C"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="fhd-arr-word" x1="362" y1="115" x2="484" y2="115" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="fhd-arr-md" x1="362" y1="207" x2="484" y2="207" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="fhd-arr-txt" x1="362" y1="297" x2="484" y2="297" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="fhd-arr-compile" x1="830" y1="204" x2="892" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <radialGradient id="fhd-hub-glow" cx="50%" cy="22%" r="65%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="fhd-outer-clip">
+      <rect x="4" y="4" width="1192" height="352" rx="18"/>
+    </clipPath>
+    <clipPath id="fhd-s1-card-clip">
+      <rect x="0" y="0" width="332" height="82" rx="12"/>
+    </clipPath>
+    <clipPath id="fhd-s1-card3-clip">
+      <rect x="0" y="0" width="332" height="76" rx="12"/>
+    </clipPath>
+    <clipPath id="fhd-s2-clip">
+      <rect x="0" y="0" width="342" height="262" rx="14"/>
+    </clipPath>
+    <clipPath id="fhd-s3-clip">
+      <rect x="0" y="0" width="276" height="262" rx="14"/>
+    </clipPath>
+    <pattern id="fhd-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.022" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer Canvas -->
+  <g clip-path="url(#fhd-outer-clip)">
+    <rect x="4" y="4" width="1192" height="352" fill="url(#fhd-bg)"/>
+    <rect x="4" y="4" width="1192" height="352" fill="url(#fhd-grid)"/>
+    <ellipse cx="657" cy="195" rx="250" ry="150" fill="url(#fhd-hub-glow)"/>
+  </g>
+  <rect x="4" y="4" width="1192" height="352" rx="18" fill="none" stroke="#1E2736" stroke-width="1.5"/>
+  <rect x="5.5" y="5.5" width="1189" height="349" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+
+  <!-- Header Strip -->
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <circle cx="33" cy="28" r="4" fill="#10B981"/>
+    <text x="46" y="32" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">FOUR-LAYER FORMAT INTERCHANGE HUB</text>
+    <text x="1172" y="32" text-anchor="end" font-size="12" font-weight="500" fill="#9BA7BC">Switch Formats Seamlessly — Never Break Templates</text>
+    <line x1="28" y1="45" x2="1172" y2="45" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1"/>
+  </g>
+
+  <!-- Stage Column Eyebrows -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.0">
+    <rect x="28" y="53" width="52" height="16" rx="8" fill="#6366F1" fill-opacity="0.18"/>
+    <text x="54" y="64.5" text-anchor="middle" fill="#A5B4FC">STAGE 1</text>
+    <text x="88" y="64.5" fill="#9BA7BC">MULTI-FORMAT INPUTS &amp; LAB TOOLKIT</text>
+
+    <rect x="486" y="53" width="52" height="16" rx="8" fill="#10B981" fill-opacity="0.20"/>
+    <text x="512" y="64.5" text-anchor="middle" fill="#6EE7B7">STAGE 2</text>
+    <text x="546" y="64.5" fill="#6EE7B7">PREAMBLE-LOCKED LATEX HUB</text>
+
+    <rect x="896" y="53" width="52" height="16" rx="8" fill="#0F7B4C" fill-opacity="0.34"/>
+    <text x="922" y="64.5" text-anchor="middle" fill="#34D399">STAGE 3</text>
+    <text x="956" y="64.5" fill="#9BA7BC">LIVE COMPILED PDF &amp; SYNCTEX</text>
+  </g>
+
+  <!-- STAGE 1: 3 STACKED INPUT CARDS (x=28..360, y=75..337) -->
+  <g transform="translate(28, 75)" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- Card 1: Word (.docx) -->
+    <g>
+      <g clip-path="url(#fhd-s1-card-clip)">
+        <rect x="0" y="0" width="332" height="82" fill="url(#fhd-card)"/>
+        <rect x="0" y="0" width="4" height="82" fill="#38BDF8"/>
+      </g>
+      <rect x="0" y="0" width="332" height="82" rx="12" fill="none" stroke="#38BDF8" stroke-opacity="0.36" stroke-width="1.2"/>
+      <text x="16" y="25" font-size="13.5" font-weight="700" fill="#F3F6FA">Word <tspan fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">(.docx)</tspan></text>
+      <rect x="266" y="11" width="52" height="19" rx="9.5" fill="#38BDF8" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="0.9"/>
+      <text x="292" y="24" text-anchor="middle" font-size="9.5" font-weight="700" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">DOCX</text>
+      <text x="16" y="44" font-size="11" font-style="italic" fill="#9BA7BC">For submissions, course templates &amp; reviewers</text>
+      <rect x="14" y="53" width="304" height="21" rx="5.5" fill="#0B1019" stroke="#38BDF8" stroke-opacity="0.22" stroke-width="0.9"/>
+      <text x="24" y="67" font-size="9.6" font-weight="500" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">Native OMML Math · Track Changes · Citeproc</text>
+    </g>
+
+    <!-- Card 2: Markdown (.md) -->
+    <g transform="translate(0, 92)">
+      <g clip-path="url(#fhd-s1-card-clip)">
+        <rect x="0" y="0" width="332" height="82" fill="url(#fhd-card)"/>
+        <rect x="0" y="0" width="4" height="82" fill="#818CF8"/>
+      </g>
+      <rect x="0" y="0" width="332" height="82" rx="12" fill="none" stroke="#818CF8" stroke-opacity="0.38" stroke-width="1.2"/>
+      <text x="16" y="25" font-size="13.5" font-weight="700" fill="#F3F6FA">Markdown <tspan fill="#A5B4FC" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">(.md)</tspan></text>
+      <rect x="272" y="11" width="46" height="19" rx="9.5" fill="#818CF8" fill-opacity="0.16" stroke="#818CF8" stroke-opacity="0.38" stroke-width="0.9"/>
+      <text x="295" y="24" text-anchor="middle" font-size="9.5" font-weight="700" fill="#C7D2FE" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">MD</text>
+      <text x="16" y="44" font-size="11" font-style="italic" fill="#9BA7BC">For local AI agents &amp; fast drafting</text>
+      <rect x="14" y="53" width="304" height="21" rx="5.5" fill="#0B1019" stroke="#818CF8" stroke-opacity="0.24" stroke-width="0.9"/>
+      <text x="24" y="67" font-size="9.5" font-weight="500" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">$math$ + [@cite] · Ctrl+S / POST /md-compile</text>
+    </g>
+
+    <!-- Card 3: CSV / Code / .txt / .pdf -->
+    <g transform="translate(0, 184)">
+      <g clip-path="url(#fhd-s1-card3-clip)">
+        <rect x="0" y="0" width="332" height="76" fill="url(#fhd-card)"/>
+        <rect x="0" y="0" width="4" height="76" fill="#64748B"/>
+      </g>
+      <rect x="0" y="0" width="332" height="76" rx="12" fill="none" stroke="#64748B" stroke-opacity="0.42" stroke-width="1.2"/>
+      <text x="16" y="25" font-size="13.2" font-weight="700" fill="#F3F6FA">CSV / Code / <tspan fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5">.txt / .pdf</tspan></text>
+      <rect x="252" y="11" width="66" height="19" rx="9.5" fill="#64748B" fill-opacity="0.20" stroke="#94A3B8" stroke-opacity="0.34" stroke-width="0.9"/>
+      <text x="285" y="24" text-anchor="middle" font-size="9.2" font-weight="700" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">TOOLKIT</text>
+      <text x="16" y="44" font-size="11" font-style="italic" fill="#9BA7BC">Zero-cost Lab Toolkit &amp; legacy draft intake</text>
+      <rect x="14" y="51" width="304" height="18" rx="4.5" fill="#0B1019" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="0.8"/>
+      <text x="24" y="63.5" font-size="9.4" font-weight="500" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">CSV→Booktabs · Listings · Figures · Drafts</text>
+    </g>
+  </g>
+
+  <!-- CONNECTOR LANE 1 <-> 2 (x=360..486) -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <!-- Word <-> LaTeX Hub -->
+    <rect x="371" y="90" width="104" height="19" rx="9.5" fill="#0F1C24" stroke="#38BDF8" stroke-opacity="0.42" stroke-width="1"/>
+    <text x="423" y="102.8" text-anchor="middle" font-size="9.4" font-weight="700" fill="#7DD3FC">OMML ↔ LaTeX</text>
+    <line x1="369" y1="118" x2="477" y2="118" stroke="url(#fhd-arr-word)" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="371,113 362,118 371,123" fill="#38BDF8"/>
+    <polygon points="475,113 484,118 475,123" fill="#10B981"/>
+    <text x="423" y="133" text-anchor="middle" font-size="8.9" font-weight="600" fill="#7D8CA3" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">Round-trip sync</text>
+
+    <!-- Markdown <-> LaTeX Hub -->
+    <rect x="366" y="182" width="114" height="19" rx="9.5" fill="#15172A" stroke="#818CF8" stroke-opacity="0.46" stroke-width="1"/>
+    <text x="423" y="194.8" text-anchor="middle" font-size="9.2" font-weight="700" fill="#C7D2FE">[@cite] ↔ \cite{}</text>
+    <line x1="369" y1="210" x2="477" y2="210" stroke="url(#fhd-arr-md)" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="371,205 362,210 371,215" fill="#818CF8"/>
+    <polygon points="475,205 484,210 475,215" fill="#10B981"/>
+    <text x="423" y="225" text-anchor="middle" font-size="8.9" font-weight="600" fill="#6EE7B7" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">Lossless interchange</text>
+
+    <!-- Lab Toolkit / Drafts <-> LaTeX Hub -->
+    <rect x="370" y="272" width="106" height="19" rx="9.5" fill="#131922" stroke="#64748B" stroke-opacity="0.45" stroke-width="1"/>
+    <text x="423" y="284.8" text-anchor="middle" font-size="9.2" font-weight="700" fill="#CBD5E1">Toolkit ↔ .tex</text>
+    <line x1="369" y1="300" x2="477" y2="300" stroke="url(#fhd-arr-txt)" stroke-width="1.9" stroke-dasharray="4 3" stroke-linecap="round"/>
+    <polygon points="371,295.5 363,300 371,304.5" fill="#94A3B8"/>
+    <polygon points="475,295.5 484,300 475,304.5" fill="#10B981"/>
+    <text x="423" y="315" text-anchor="middle" font-size="8.9" font-weight="500" fill="#7D8CA3" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">Insert &amp; intake</text>
+  </g>
+
+  <!-- STAGE 2: PREAMBLE-LOCKED LATEX HUB (CENTER HERO CARD, x=486..828, y=75..337) -->
+  <g transform="translate(486, 75)" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <g clip-path="url(#fhd-s2-clip)">
+      <rect x="0" y="0" width="342" height="262" fill="url(#fhd-hub-bg)"/>
+      <rect x="0" y="0" width="342" height="4.5" fill="url(#fhd-emerald-bar)"/>
+    </g>
+    <rect x="0" y="0" width="342" height="262" rx="14" fill="none" stroke="#10B981" stroke-opacity="0.58" stroke-width="1.5"/>
+
+    <!-- Hero Card Title -->
+    <rect x="16" y="16" width="46" height="22" rx="11" fill="#10B981" fill-opacity="0.20" stroke="#10B981" stroke-opacity="0.50" stroke-width="1"/>
+    <text x="39" y="30.5" text-anchor="middle" font-size="11" font-weight="700" fill="#6EE7B7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">.tex</text>
+    <text x="72" y="32" font-size="15.5" font-weight="700" fill="#F3F6FA">Single Source of Truth</text>
+    <rect x="282" y="17" width="44" height="20" rx="10" fill="#0F7B4C" fill-opacity="0.45" stroke="#34D399" stroke-opacity="0.45" stroke-width="0.9"/>
+    <text x="304" y="30.2" text-anchor="middle" font-size="9.2" font-weight="700" fill="#A7F3D0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">HUB</text>
+    <text x="16" y="53" font-size="11.2" font-weight="500" fill="#6EE7B7">Canonical document source · Zero template drift</text>
+
+    <!-- Sub-badge 1: 100% Preamble & Template Lock -->
+    <rect x="14" y="65" width="314" height="47" rx="8.5" fill="#0B1F18" stroke="#10B981" stroke-opacity="0.46" stroke-width="1.1"/>
+    <circle cx="29" cy="83" r="4" fill="#10B981"/>
+    <text x="41" y="86.5" font-size="12" font-weight="700" fill="#ECFDF5">100% Preamble &amp; Template Lock</text>
+    <text x="41" y="103" font-size="10.4" fill="#86EFAC">Never breaks lab report, IEEE, or Beamer headers</text>
+
+    <!-- Sub-badge 2: Red / Green Line Diff Preview -->
+    <rect x="14" y="119" width="314" height="38" rx="8" fill="#0D141B" stroke="#10B981" stroke-opacity="0.24" stroke-width="1"/>
+    <circle cx="27" cy="138" r="3.4" fill="#F87171"/>
+    <circle cx="37" cy="138" r="3.4" fill="#10B981"/>
+    <text x="50" y="142" font-size="11.8" font-weight="600" fill="#E6EDF7">Red / Green Line Diff Preview</text>
+
+    <!-- Sub-badge 3: Local Git History & Instant Restore -->
+    <rect x="14" y="164" width="314" height="38" rx="8" fill="#0D141B" stroke="#10B981" stroke-opacity="0.24" stroke-width="1"/>
+    <circle cx="29" cy="183" r="3.5" fill="#34D399"/>
+    <text x="42" y="187" font-size="11.8" font-weight="600" fill="#E6EDF7">Local Git History &amp; Instant Restore</text>
+
+    <!-- Sub-badge 4: Scoped BYOK AI -->
+    <rect x="14" y="209" width="314" height="39" rx="8" fill="#111526" stroke="#818CF8" stroke-opacity="0.34" stroke-width="1"/>
+    <circle cx="29" cy="228.5" r="3.5" fill="#818CF8"/>
+    <text x="42" y="232.5" font-size="11.4" font-weight="600" fill="#E0E7FF">Scoped BYOK AI (Errors, Tables, Math Only)</text>
+  </g>
+
+  <!-- CONNECTOR LANE 2 -> 3 (x=828..896) -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <rect x="833" y="176" width="58" height="19" rx="9.5" fill="#0D221B" stroke="#10B981" stroke-opacity="0.50" stroke-width="1"/>
+    <text x="862" y="188.8" text-anchor="middle" font-size="9.4" font-weight="700" fill="#6EE7B7">Compile</text>
+    <line x1="831" y1="206" x2="885" y2="206" stroke="url(#fhd-arr-compile)" stroke-width="2.4" stroke-linecap="round"/>
+    <polygon points="883,200 894,206 883,212" fill="#34D399"/>
+    <text x="862" y="224" text-anchor="middle" font-size="9" font-weight="600" fill="#7D8CA3">.tex → .pdf</text>
+  </g>
+
+  <!-- STAGE 3: LIVE COMPILED PDF & SYNCTEX (RIGHT HERO CARD, x=896..1172, y=75..337) -->
+  <g transform="translate(896, 75)" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <g clip-path="url(#fhd-s3-clip)">
+      <rect x="0" y="0" width="276" height="262" fill="url(#fhd-card)"/>
+      <rect x="0" y="0" width="276" height="4.5" fill="#34D399"/>
+    </g>
+    <rect x="0" y="0" width="276" height="262" rx="14" fill="none" stroke="#34D399" stroke-opacity="0.44" stroke-width="1.3"/>
+
+    <!-- Header -->
+    <text x="16" y="31" font-size="14" font-weight="700" fill="#F3F6FA">Live Compiled <tspan fill="#34D399">PDF</tspan> Output</text>
+    <rect x="222" y="16" width="40" height="20" rx="10" fill="#10B981" fill-opacity="0.18" stroke="#34D399" stroke-opacity="0.42" stroke-width="0.9"/>
+    <text x="242" y="29.2" text-anchor="middle" font-size="9.4" font-weight="700" fill="#6EE7B7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">PDF</text>
+    <text x="16" y="52" font-size="11" fill="#9BA7BC">Submission-ready preview &amp; source jump</text>
+
+    <!-- Feature 1: Sandboxed TeX Engines -->
+    <rect x="14" y="65" width="248" height="54" rx="8.5" fill="#0B1019" stroke="#34D399" stroke-opacity="0.26" stroke-width="1"/>
+    <circle cx="27" cy="84" r="3.4" fill="#10B981"/>
+    <text x="38" y="88" font-size="11.8" font-weight="700" fill="#EEF3FA">Sandboxed TeX Engines</text>
+    <text x="26" y="107" font-size="9.8" font-weight="500" fill="#86EFAC" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">XeLaTeX / pdfLaTeX / LuaLaTeX</text>
+
+    <!-- Feature 2: HTTP Range 206 Streaming -->
+    <rect x="14" y="128" width="248" height="54" rx="8.5" fill="#0B1019" stroke="#34D399" stroke-opacity="0.26" stroke-width="1"/>
+    <circle cx="27" cy="147" r="3.4" fill="#38BDF8"/>
+    <text x="38" y="151" font-size="11.8" font-weight="700" fill="#EEF3FA">HTTP Range 206 Streaming</text>
+    <text x="26" y="170" font-size="10.4" fill="#9BA7BC">Incremental byte-range PDF.js view</text>
+
+    <!-- Feature 3: Pure-TS Bidirectional SyncTeX -->
+    <rect x="14" y="191" width="248" height="57" rx="8.5" fill="#0D1F19" stroke="#10B981" stroke-opacity="0.44" stroke-width="1.1"/>
+    <circle cx="27" cy="211" r="3.4" fill="#34D399"/>
+    <text x="38" y="215" font-size="11.6" font-weight="700" fill="#ECFDF5">Pure-TS Bidirectional SyncTeX</text>
+    <text x="26" y="234" font-size="10.4" fill="#86EFAC">Click PDF ↔ Jump to exact .tex line</text>
+  </g>
+</svg>
